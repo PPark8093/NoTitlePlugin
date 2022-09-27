@@ -1,0 +1,18 @@
+name: Skills
+main: me.ppark.main.Main
+version: 1.5
+api-version: 1.17
+description: This Plugin include many skills
+author: PPark8093
+website: https://github.com/PPark8093
+commands:
+  skills:
+    description: 스킬 테스트 명령어
+    usage: /skills
+    permission: Skills.skills
+    permission-message: You don't have permission
+  tests:
+    description: 플러그인 테스트 명령어
+    usage: /tests
+    permission: Skills.tests
+    permission-message: You don't have permission
